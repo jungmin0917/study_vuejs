@@ -1,3 +1,5 @@
+<!-- 현재 vue 프로젝트의 최상위 컴포넌트이다 -->
+
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
