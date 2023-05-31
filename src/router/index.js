@@ -1,9 +1,17 @@
 // 이 파일은 라우터 설정 파일이다
+// 여기서 필요한 views (컴포넌트)를 전부 import 해놓는다. (미리 즉시로딩해도 되고, 아래의 AboutView와 같이 지연로딩해도 됨)
 
 import {createRouter, createWebHashHistory} from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DataBinding from "@/views/DataBinding.vue";
 import DataBindingHtml from "@/views/DataBindingHtml.vue"; // @/로 시작하면 루트 디렉토리부터 찾는다는 뜻의 Alias이다.
+import DataBindingInputText from "@/views/DataBindingInputText.vue";
+import DataBindingInputNumber from "@/views/DataBindingInputNumber.vue";
+import DataBindingTextarea from "@/views/DataBindingTextarea.vue";
+import DataBindingSelect from "@/views/DataBindingSelect.vue";
+import DataBindingCheckbox from "@/views/DataBindingCheckbox.vue";
+import DataBindingCheckbox2 from "@/views/DataBindingCheckbox2.vue";
+import DataBindingRadio from "@/views/DataBindingRadio.vue";
 
 const routes = [
     {
@@ -32,6 +40,41 @@ const routes = [
         path: "/databindinghtml",
         name: "DataBindingHtml",
         component: DataBindingHtml
+    },
+    {
+        path: "/databindinginputtext",
+        name: "DataBindingInputText",
+        component: DataBindingInputText
+    },
+    {
+        path: "/databindinginputnumber",
+        name: "DataBindingInputNumber",
+        component: DataBindingInputNumber
+    },
+    {
+        path: "/databindingtextarea",
+        name: "DataBindingTextarea",
+        component: DataBindingTextarea
+    },
+    {
+        path: "/databindingselect",
+        name: "DataBindingSelect",
+        component: DataBindingSelect
+    },
+    {
+        path: "/databindingcheckbox",
+        name: "DataBindingCheckbox",
+        component: DataBindingCheckbox
+    },
+    {
+        path: "/databindingcheckbox2",
+        name: "DataBindingCheckbox2",
+        component: DataBindingCheckbox2
+    },
+    {
+        path: "/databindingradio",
+        name: "DataBindingRadio",
+        component: DataBindingRadio
     }
 
 ]
