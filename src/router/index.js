@@ -12,6 +12,12 @@ import DataBindingSelect from "@/views/DataBindingSelect.vue";
 import DataBindingCheckbox from "@/views/DataBindingCheckbox.vue";
 import DataBindingCheckbox2 from "@/views/DataBindingCheckbox2.vue";
 import DataBindingRadio from "@/views/DataBindingRadio.vue";
+import DataBindingAttribute from "@/views/DataBindingAttribute.vue";
+import DataBindingButton from "@/views/DataBindingButton.vue";
+import DataBindingClass from "@/views/DataBindingClass.vue";
+import DataBindingClass2 from "@/views/DataBindingClass2.vue";
+import DataBindingStyle from "@/views/DataBindingStyle.vue";
+import DataBindingStyle2 from "@/views/DataBindingStyle2.vue";
 
 const routes = [
     {
@@ -75,6 +81,36 @@ const routes = [
         path: "/databindingradio",
         name: "DataBindingRadio",
         component: DataBindingRadio
+    },
+    {
+        path: "/databindingattribute",
+        name: "DataBindingAttribute",
+        component: DataBindingAttribute
+    },
+    {
+        path: "/databindingbutton",
+        name: "DataBindingButton",
+        component: DataBindingButton
+    },
+    {
+        path: "/databindingclass",
+        name: "DataBindingClass",
+        component: DataBindingClass
+    },
+    {
+        path: "/databindingclass2",
+        name: "DataBindingClass2",
+        component: DataBindingClass2
+    },
+    {
+        path: "/databindingstyle",
+        name: "DataBindingStyle",
+        component: DataBindingStyle
+    },
+    {
+        path: "/databindingstyle2",
+        name: "DataBindingStyle2",
+        component: DataBindingStyle2
     }
 
 ]
