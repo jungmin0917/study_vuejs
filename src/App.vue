@@ -35,6 +35,10 @@
         <router-link to="/databindingstyle">Data Binding Style</router-link>
         |
         <router-link to="/databindingstyle2">Data Binding Style2</router-link>
+        |
+        <router-link to="/databindinglist">Data Binding List</router-link>
+        |
+        <router-link to="/renderingvif">Rendering V-if</router-link>
     </nav>
     <router-view/>
 </template>
