@@ -8,7 +8,7 @@
         this.counter = this.counter + 1;
     }
 
-    function setCounter(counter){
+    function setCount(counter){
         this.counter = counter;
     }
 
@@ -25,6 +25,10 @@
 <template>
     <div>
         <button type="button" v-on:click="increaseCounter()">Add 1</button>
+        <button type="button" @click="setCount(7)">Set 7</button>
+        <button type="button" @click="one(), two()">Click</button>
+
+        <p>The Counter is : {{ counter }}</p>
     </div>
 </template>
 
