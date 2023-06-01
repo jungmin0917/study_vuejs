@@ -39,6 +39,8 @@
         <router-link to="/databindinglist">Data Binding List</router-link>
         |
         <router-link to="/renderingvif">Rendering V-if</router-link>
+        |
+        <router-link to="/eventclick">Event Click</router-link>
     </nav>
     <router-view/>
 </template>
