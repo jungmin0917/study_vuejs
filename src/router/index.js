@@ -27,6 +27,12 @@ import Watch from "@/views/Watch.vue";
 
 import NestedComponent from "@/views/NestedComponent.vue";
 import NestedComponent2 from "@/views/NestedComponent2.vue";
+import ChildComponent from "@/views/ChildComponent.vue";
+import ParentComponent from "@/views/ParentComponent.vue";
+import ChildComponent2 from "@/views/ChildComponent2.vue";
+import ParentComponent2 from "@/views/ParentComponent2.vue";
+import ChildComponent3 from "@/views/ChildComponent3.vue";
+import ParentComponent3 from "@/views/ParentComponent3.vue";
 
 const routes = [
     {
@@ -160,6 +166,36 @@ const routes = [
         path: "/nestedcomponent2",
         name: "NestedComponent2",
         component: NestedComponent2
+    },
+    {
+        path: "/childcomponent",
+        name: "ChildComponent",
+        component: ChildComponent
+    },
+    {
+        path: "/parentcomponent",
+        name: "ParentComponent",
+        component: ParentComponent
+    },
+    {
+        path: "/childcomponent2",
+        name: "ChildComponent2",
+        component: ChildComponent2
+    },
+    {
+        path: "/parentcomponent2",
+        name: "ParentComponent2",
+        component: ParentComponent2
+    },
+    {
+        path: "/childcomponent3",
+        name: "ChildComponent3",
+        component: ChildComponent3
+    },
+    {
+        path: "/parentcomponent3",
+        name: "ParentComponent3",
+        component: ParentComponent3
     }
 ]
 
