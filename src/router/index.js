@@ -148,7 +148,6 @@ const routes = [
         name: "Watch",
         component: Watch
     }
-
 ]
 
 const router = createRouter({
