@@ -62,6 +62,10 @@
         <router-link to="/parentcomponent4">Parent Component4</router-link>
         |
         <router-link to="/parentcomponent5">Parent Component5</router-link>
+        |
+        <router-link to="/slotusemodallayout">Slot Use Modal Layout</router-link>
+        |
+        <router-link to="/provideinject">Provide Inject</router-link>
     </nav>
     <router-view/>
 </template>

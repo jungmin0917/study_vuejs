@@ -37,6 +37,10 @@ import ChildComponent4 from "@/views/ChildComponent4.vue";
 import ParentComponent4 from "@/views/ParentComponent4.vue";
 import ChildComponent5 from "@/views/ChildComponent5.vue";
 import ParentComponent5 from "@/views/ParentComponent5.vue";
+import SlotModalLayout from "@/views/SlotModalLayout.vue";
+import SlotUseModalLayout from "@/views/SlotUseModalLayout.vue";
+import ProvideInject from "@/views/ProvideInject.vue";
+import ProvideInjectChild from "@/views/ProvideInjectChild.vue";
 
 const routes = [
     {
@@ -220,6 +224,21 @@ const routes = [
         path: "/parentcomponent5",
         name: "ParentComponent5",
         component: ParentComponent5
+    },
+    {
+        path: "/slotmodallayout",
+        name: "SlotModalLayout",
+        component: SlotModalLayout
+    },
+    {
+        path: "/slotusemodallayout",
+        name: "SlotUseModalLayout",
+        component: SlotUseModalLayout
+    },
+    {
+        path: "/provideinject",
+        name: "ProvideInject",
+        component: ProvideInject
     }
 ]
 
