@@ -33,6 +33,10 @@ import ChildComponent2 from "@/views/ChildComponent2.vue";
 import ParentComponent2 from "@/views/ParentComponent2.vue";
 import ChildComponent3 from "@/views/ChildComponent3.vue";
 import ParentComponent3 from "@/views/ParentComponent3.vue";
+import ChildComponent4 from "@/views/ChildComponent4.vue";
+import ParentComponent4 from "@/views/ParentComponent4.vue";
+import ChildComponent5 from "@/views/ChildComponent5.vue";
+import ParentComponent5 from "@/views/ParentComponent5.vue";
 
 const routes = [
     {
@@ -196,6 +200,26 @@ const routes = [
         path: "/parentcomponent3",
         name: "ParentComponent3",
         component: ParentComponent3
+    },
+    {
+        path: "/childcomponent4",
+        name: "ChildComponent4",
+        component: ChildComponent4
+    },
+    {
+        path: "/parentcomponent4",
+        name: "ParentComponent4",
+        component: ParentComponent4
+    },
+    {
+        path: "/childcomponent5",
+        name: "ChildComponent5",
+        component: ChildComponent5
+    },
+    {
+        path: "/parentcomponent5",
+        name: "ParentComponent5",
+        component: ParentComponent5
     }
 ]
 

@@ -58,6 +58,10 @@
         <router-link to="/parentcomponent2">Parent Component2</router-link>
         |
         <router-link to="/parentcomponent3">Parent Component3</router-link>
+        |
+        <router-link to="/parentcomponent4">Parent Component4</router-link>
+        |
+        <router-link to="/parentcomponent5">Parent Component5</router-link>
     </nav>
     <router-view/>
 </template>
